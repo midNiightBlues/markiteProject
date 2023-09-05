@@ -1,0 +1,74 @@
+<h3>Change Log</h3>
+
+<h2>16 October 2022 &amp; Version 1.2.3</h2>
+<pre>
+- 1. Update: WordPress Tested Upto 6.x.x
+- 2. Update: Footer Copyright.
+</pre>
+
+<h2>18 June 2022 &amp; Version 1.1.1</h2>
+<pre>
+- 1. Fixed: Elementor Update Issue.
+- 2. Fixed: Shop Details Category Issue.
+</pre>
+
+<h2>01 January 2022 &amp; Version 1.1.0</h2>
+<pre>
+- 1. Fixed: Shop Link Issue.
+</pre>
+
+<h2>13 October 2021 &amp; Version 1.0.9</h2>
+<pre>
+- 1. Fixed: About Widget issue.
+- 2. Update: Sideinfo Option.
+</pre>
+
+<h2>31 July 2021 &amp; Version 1.0.8</h2>
+<pre>
+- 1. Added: New Home 3
+- 2. Update: New Elementor widget.
+</pre>
+
+<h2>19 July 2021  &amp; Version 1.0.7</h2>
+<pre>
+- 1. Added: Dokan Vendor Plugin option. 
+</pre>
+
+<h2>14 July 2021 &amp; Version 1.0.6</h2>
+<pre>
+- 1. Fixed: Toolkits Plugin Issue.
+</pre>
+
+<h2>09 July 2021 &amp; Version 1.0.5</h2>
+<pre>
+- 1. Fixed: Color Issue.
+</pre>
+
+<h2>05 July 2021 &amp; Version 1.0.4</h2>
+<pre>
+- 1. Fixed: Widget Issue.
+- 2. Added: Color Version. 
+</pre>
+
+<h2>30 June 2021 &amp; Version 1.0.3</h2>
+<pre>
+- 1. Fixed: Widget Logo Issue.
+- 2. Fixed: CSS issue.
+</pre>
+
+<h2>28 June 2021 &amp; Version 1.0.2</h2>
+<pre>
+- 1. Fixed: Widget Issue.
+- 2. Added: RTL Option.
+</pre>
+
+<h2>25 June 2021 &amp; Version 1.0.1</h2>
+<pre>
+- 1. Added: Unlimited Color Variation.
+- 2. Fixed: Slider Widget Issue.
+</pre>
+
+<h2>23 June 2021  &amp; Version 1.0.0</h2>
+<pre>
+- 1. Initial Released Markite.
+</pre>

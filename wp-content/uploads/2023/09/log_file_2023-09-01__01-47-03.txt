@@ -1,0 +1,69 @@
+
+---Downloaded files---
+The import files for: Home 3 were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/themes/markite/sample-data/contents-demo.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/themes/markite/sample-data/widget-settings.json
+Customizer file = C:\xampp\htdocs\wordpress/wp-content/themes/markite/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Widget already exists
+Markite Sidebar Posts Image - Recent News - Widget already exists
+Categories - Categories - Widget already exists
+Tag Cloud - Tags - Widget already exists
+Custom HTML - No Title - Widget already exists
+
+Product Sidebar : 
+
+Text - No Title - Widget already exists
+Custom HTML - No Title - Widget already exists
+
+Footer 1 : 
+
+Custom HTML - No Title - Widget already exists
+
+Footer 2 : 
+
+Navigation Menu - Products - Widget already exists
+
+Footer 3 : 
+
+Navigation Menu - Resources - Widget already exists
+
+Footer 4 : 
+
+Custom HTML - Newsletter - Widget already exists
+
+Footer Style 2: 1 : 
+
+Custom HTML - Follow our Socials - Widget already exists
+
+Footer Style 2: 2 : 
+
+Navigation Menu - Products - Widget already exists
+
+Footer Style 2: 3 : 
+
+Navigation Menu - Resources - Widget already exists
+
+Footer Style 2: 4 : 
+
+Navigation Menu - Support - Widget already exists
+
+Footer Style 2: 5 : 
+
+Navigation Menu - Community - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

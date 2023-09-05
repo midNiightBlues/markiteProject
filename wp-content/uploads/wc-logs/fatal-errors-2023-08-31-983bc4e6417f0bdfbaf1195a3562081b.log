@@ -1,0 +1,54 @@
+2023-08-31T22:07:25+00:00 CRITICAL Uncaught Error: Call to undefined function liquid_helper() in C:\xampp\htdocs\wordpress\wp-content\plugins\aihub-core\extensions\theme-scripts\theme-scripts.php:25
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\aihub-core\extensions\theme-scripts\theme-scripts.php(17): Liquid_Theme_Assets_Extended->init_hooks()
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\aihub-core\extensions\theme-scripts\theme-scripts.php(139): Liquid_Theme_Assets_Extended->__construct()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\aihub-core\aihub-core.php(165): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\aihub-core\aihub-core.php(355): Liquid_Addons->include_files()
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): Liquid_Addons->init('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\plugin.php(658): do_action('elementor/init')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Plugin->init('')
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#10 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#11 C:\xampp\htdocs\wordpress\wp-settings.php(632): do_action('init')
+#12 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\wordpress\wp-admin\customize.php(13): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\aihub-core\extensions\theme-scripts\theme-scripts.php on line 25
+
+2023-08-31T22:10:26+00:00 CRITICAL Uncaught Error: Attempt to modify property "response" on null in C:\xampp\htdocs\wordpress\wp-content\plugins\mayosis-core\library\license-manager\includes\MayosisBase.php:248
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(312): MayosisBase->PluginUpdate(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\option.php(2053): apply_filters('pre_set_site_tr...', NULL, 'update_themes')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\mayosis-core\library\license-manager\includes\MayosisBase.php(60): set_site_transient('update_themes', NULL)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): MayosisBase->{closure}(Object(Theme_Upgrader), Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-upgrader.php(960): do_action('upgrader_proces...', Object(Theme_Upgrader), Array)
+#8 C:\xampp\htdocs\wordpress\wp-admin\includes\class-theme-upgrader.php(250): WP_Upgrader->run(Array)
+#9 C:\xampp\htdocs\wordpress\wp-admin\update.php(324): Theme_Upgrader->install('C:\\xampp\\htdocs...', Array)
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\mayosis-core\library\license-manager\includes\MayosisBase.php on line 248
+
+2023-08-31T22:14:32+00:00 CRITICAL Uncaught Error: Attempt to modify property "response" on null in C:\xampp\htdocs\wordpress\wp-content\plugins\mayosis-core\library\license-manager\includes\MayosisBase.php:248
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(312): MayosisBase->PluginUpdate(NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\option.php(2053): apply_filters('pre_set_site_tr...', NULL, 'update_themes')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\mayosis-core\library\license-manager\includes\MayosisBase.php(60): set_site_transient('update_themes', NULL)
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): MayosisBase->{closure}(Object(Theme_Upgrader), Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-admin\includes\class-theme-upgrader.php(484): do_action('upgrader_proces...', Object(Theme_Upgrader), Array)
+#8 C:\xampp\htdocs\wordpress\wp-admin\includes\ajax-actions.php(4331): Theme_Upgrader->bulk_upgrade(Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): wp_ajax_update_theme('')
+#10 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#11 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_update-...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\mayosis-core\library\license-manager\includes\MayosisBase.php on line 248
+

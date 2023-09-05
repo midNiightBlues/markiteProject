@@ -1,0 +1,167 @@
+2023-09-01T00:53:02+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Advanced Custom...')
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3595): Bulk_Upgrader_Skin->after('Advanced Custom...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3215): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3328): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(2934): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(700): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-09-01T01:09:34+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Contact Form 7')
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3595): Bulk_Upgrader_Skin->after('Contact Form 7')
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3215): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3328): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(2934): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(700): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-09-01T01:10:15+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Dokan')
+#1 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3595): Bulk_Upgrader_Skin->after('Dokan')
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3215): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(3328): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(2934): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\wordpress\wp-content\themes\markite\inc\class-tgm-plugin-activation.php(700): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\wordpress\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-09-01T02:07:49+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(663): plugin_sandbox_scrape('wordpress-githu...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(58): activate_plugin('wordpress-githu...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:07:56+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('wordpress-githu...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:07:56+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('wordpress-githu...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:08:06+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(663): plugin_sandbox_scrape('wordpress-githu...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(58): activate_plugin('wordpress-githu...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:08:13+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('wordpress-githu...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:08:13+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('wordpress-githu...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:10:53+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(663): plugin_sandbox_scrape('wordpress-githu...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(58): activate_plugin('wordpress-githu...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:11:01+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('wordpress-githu...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:11:01+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('wordpress-githu...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:14:25+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(663): plugin_sandbox_scrape('wordpress-githu...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(58): activate_plugin('wordpress-githu...', 'http://localhos...', false)
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:14:33+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('wordpress-githu...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T02:14:33+00:00 CRITICAL Uncaught Error: Class "WordPress_GitHub_Sync_Admin" not found in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php:155
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php(40): WordPress_GitHub_Sync->__construct()
+#1 C:\xampp\htdocs\wordpress\wp-admin\includes\plugin.php(2318): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(192): plugin_sandbox_scrape('wordpress-githu...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\wordpress-github-sync-master\wp-github-sync.php on line 155
+
+2023-09-01T18:02:59+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\wordpress\wp-content\plugins\bdevs-element\classes\bdevs-el-woocommerce.php:316
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\bdevs-element\widgets\woo-product-tab\woo-product-tab-widget.php(1013): BdevsElement\BDevs_El_Woocommerce::product_price(5595, true)
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\controls-stack.php(2243): BdevsElement\Widget\Woo_Product_Tab->render()
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\base\widget-base.php(609): Elementor\Controls_Stack->render_by_mode()
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\base\document.php(292): Elementor\Widget_Base->render_content()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\includes\managers\widgets.php(445): Elementor\Core\Base\Document->render_element(Array)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\wordpress\wp-content\plugins\elementor\core\common\modules\ajax\module.php(175): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#7 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#8 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\bdevs-element\classes\bdevs-el-woocommerce.php on line 316
+
